@@ -7,7 +7,7 @@ import SignUp from './SignUp';
 import Home from './Home';
 import AboutUs from './AboutUs';
 import Contact from './Contact';
-//import Search from './Search';
+import Blog from './Blog';
 
 
 
@@ -23,6 +23,7 @@ function App() {
         <Route path='/login' component={LogIn}/>
         <Route path='/signup' component={SignUp}/>
         <Route path='/about us' component={AboutUs}/>
+        <Route path='/blog' component={Blog}/>
         <Route path='/contact us' component={Contact}/>
      
 

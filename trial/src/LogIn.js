@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container,Button,Form, FormGroup,} from 'react-bootstrap';
+import { Container,Button,Form,} from 'react-bootstrap';
 import "./Form.css";
 import Checkbox from './Checkbox';
 import {Link} from 'react-router-dom';
@@ -53,14 +53,13 @@ function LogIn() {
                   <Form.Control type="password" placeholder="password"/>
                   <Form.Text>Your password will never be shared,trust us</Form.Text>
               </Form.Group>
-              <FormGroup>
+              
               <Button onClick={handleLogin} className="log" variant="primary" type='submit'>Log in</Button>
               <Checkbox/>
           <br className="place"/>
           Don't have an account yet?<Link to ='/signup'>
           <span style={{color:'blue'}}>SignUp</span>
           </Link> 
-          </FormGroup>
           </Form>  
           
           </Container>
