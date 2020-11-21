@@ -1,0 +1,94 @@
+.main{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    align-self: center;
+  }
+
+
+  .auth{
+    width: 500px;
+    margin: auto;
+  }
+
+ 
+
+  Button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-content: center;
+    width: 125px;
+    align-self: center;
+  }
+
+  .img{
+      height: 300px;
+      align-content: center;
+  }
+  
+  Link{
+      color: green;
+  }
+
+
+  .index{
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    text-align: left;
+  }
+
+  h3{
+    text-align: center;
+    color: green;
+  }
+  
+  h5{
+    text-align: center;
+  }
+
+  .head{
+    text-align: center;
+    color:blue;
+  }
+
+  .fries{
+    align-content: center;
+    width: 125px;
+    align-self: center;
+  }
+
+  .log{
+    align-content: center;
+    width: 100px;
+    align-self: center;
+  }
+  .rows{
+    border:2px solid blue
+  }
+
+  .columns{
+    border: 2px solid black;
+  }
+
+  .plan{
+    align-self: center;
+    font-family: 'Lucida Bright';
+    text-align: center;
+    width: 150px;
+   align-items: center;
+  }
+
+
+  .place{
+    text-align: center;
+    align-items: center;
+  }
+  
