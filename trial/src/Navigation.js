@@ -20,7 +20,7 @@ function Navigation() {
                     <Link className="d-inline p-2 bg-dark text-white" to ="/signup">SignUp</Link>
                     <Link className="d-inline p-2 bg-dark text-white" to ="/about us">About</Link>
                     <Link className="d-inline p-2 bg-dark text-white" to ="/contact us">Contact</Link>
-                    <Link className="d-inline p-2 bg-dark text-white" to ="/blog">Blogss</Link>
+                    <Link className="d-inline p-2 bg-dark text-white" to ="/data">Data</Link>
           
 
                 </Nav>

@@ -10,7 +10,7 @@ class CheckMonitor extends Component {
 
   renderLine(k) {
     return (
-	<p key={k}>  </p>
+	<p key={k}></p>
     );
   }
 

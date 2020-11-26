@@ -76,7 +76,7 @@ function SignUp() {
           <Button  onClick={handleSignup} type='submit'>Sign Up</Button>
           <br/>
           Have an account?<Link to ='/login'>
-          <span style={{color:'blue'}}>Login</span>
+          <span >Login</span>
           </Link> 
           </Form> 
           </Container>
@@ -84,7 +84,7 @@ function SignUp() {
           </>
       )}
         
-         
+        
           
          
         </div>
