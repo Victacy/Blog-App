@@ -1,6 +1,6 @@
 import React from 'react'
-import Hawaii from '../images/hawaii.jpg'
-import Badaling from '../images/badaling.jpg'
+import Hawaii from '../images/beachh.jpg'
+import Badaling from '../images/bada.jpg'
 import  Bora from '../images/bora.jpg'
 import About1 from './About1'
 

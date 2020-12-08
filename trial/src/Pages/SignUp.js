@@ -35,7 +35,7 @@ function SignUp() {
           setSignedUp(false);
         }
     return (
-        <div>
+        <div className="der">
             {signedup ? (
         <>
           <p>Congratulations,you've created a new account.</p>
@@ -45,9 +45,9 @@ function SignUp() {
         </>
       ) : (
         <>
-        <Container>
+        <Container >
           <center>
-            <img src={sea} alt=' ' height="200px"/>
+            <img src={sea} alt=' ' height="170px" width="700px"/>
           </center>
             <h2 className="head">Sign Up now</h2>
             <h5>For the purpose of identification,your details are required</h5>
@@ -56,12 +56,13 @@ function SignUp() {
               <Form.Group className="auth" value={email} onChange={handleEmailInput}>
                   <Form.Label className="index">Email Address</Form.Label>
                   <Form.Control type="email" placeholder="example@gmail.com"/>
-                  <Form.Text>You'll be protected</Form.Text>
               </Form.Group>
+              <br/>
               <Form.Group className="auth" value={username} onChange={handleUsernameInput}>
                   <Form.Label className="index">UserName</Form.Label>
                   <Form.Control type="text" placeholder="username"/>
               </Form.Group>
+              <br/>
               <Form.Group className="auth" type="password"
               value={password}
               onChange={(event) => handlePasswordInput(event)}>
@@ -69,11 +70,13 @@ function SignUp() {
                   <Form.Control type="password" placeholder="password"/>
                   <Form.Text>Your password will never be shared,trust us</Form.Text>
               </Form.Group>
+              <br/>
               <Form.Group className="auth" value={password}
               onChange={(event) => handlePasswordInput(event)}>
                   <Form.Label className="index"> Repeat Password</Form.Label>
                   <Form.Control type="password" placeholder="repeat password"/>
               </Form.Group>
+              <br/>
               <Form.Group>
                 <Form.Check type="checkbox" label="Remember me"/> 
               </Form.Group>

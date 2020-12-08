@@ -136,7 +136,7 @@
 
   .well{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    font-size: 1.3pc;
+    
   
   }
 
@@ -152,5 +152,9 @@
     min-height: 100%; 
     background-size: cover;
     background-position: center;
+  }
+
+  .der{
+    background-color:rgb(223, 208, 7)
   }
   
