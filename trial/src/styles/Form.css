@@ -10,7 +10,7 @@
     margin: auto;
   }
 
- 
+  
 
   Button {
     background-color: #4CAF50;
@@ -34,15 +34,19 @@
       align-content: center;
   }
   
-  Link{
-      color: green;
+  .lay{
+  
+      float: right;
+      text-decoration: aliceblue;
+      display: inline ;
+ 
   }
 
 
   .index{
     font-family: 'Lucida Sans';
-    font-size: 15px;
-    text-align: left;
+    font-size: 20px;
+    text-align: right;
   }
 
   h3{
@@ -81,16 +85,31 @@
   }
 
   .plan{
-    align-self: center;
-    font-family: 'Lucida Bright';
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    width: 150px;
-   align-items: center;
+    width: 125px;
+  
+   
   }
 
 
   .place{
     text-align: center;
     align-items: center;
+  }
+
+  .bg{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tH-w17Fdo9fs3mXMo3BYHuHXqrlYpsj3-A&usqp=CAU" );
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .arrange{
+    color: aliceblue;
+    text-align: center;
   }
   

@@ -1,0 +1,33 @@
+.con{
+    background-image: url("../images/france.jpeg" );
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .play{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: darkgreen;
+  }
+
+  .hat{
+    width: 850px;
+    margin: auto;
+  }
+
+  .rain{
+    text-align: center;
+    align-self: center;
+  }
+  
+  .len{
+      font-size: 30px;
+  }
+
+  
+

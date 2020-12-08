@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Button,Form,} from 'react-bootstrap';
-import "./Form.css";
-import Checkbox from './Checkbox';
+import "../styles/Form.css";
+
 import {Link} from 'react-router-dom';
+import logo from '../images/trip.jpg'
 
 function LogIn() {
     const [email, setEmail] = useState("");
@@ -31,17 +32,20 @@ function LogIn() {
     return (
         <div >
             {loggedIn ? (
-            <>
+          <>
             <p>Welcome,Admin</p>
             <p>How may I be of help to you today?</p>
-            <Button  onClick={handleLogout} className="log" variant="primary"> Logout</Button>
-            </>
+            <Button  onClick={handleLogout}> Logout</Button>
+          </>
             ) : (
             <>
         
             <Container>
-                <h3>Log in</h3>
-          <Form >
+                <center>
+                <img src={logo} alt=' '/>
+                </center>
+                <h3 className="head">Log in</h3>
+          <Form className="main">
               <Form.Group className="auth" value={email} onChange={handleEmailInput}>
                   <Form.Label className="index">Email Address</Form.Label>
                   <Form.Control type="email" placeholder="example@gmail.com"/>
@@ -53,18 +57,22 @@ function LogIn() {
                   <Form.Control type="password" placeholder="password"/>
                   <Form.Text>Your password will never be shared,trust us</Form.Text>
               </Form.Group>
+              <Form.Group>
+                <Form.Check type="checkbox" label="Remember me"/> 
+              </Form.Group>
+              <Link to ='/forgot'><span>Forgot Password</span></Link>
+              <br/>
+
+              <Button onClick={handleLogin} type='submit'>Log in</Button>
               
-              <Button onClick={handleLogin} className="log" variant="primary" type='submit'>Log in</Button>
-              <Checkbox/>
-          <br className="place"/>
+          <br />
           Don't have an account yet?<Link to ='/signup'>
-          <span style={{color:'blue'}}>SignUp</span>
+          <span>SignUp</span>
           </Link> 
           </Form>  
           
           </Container>
           </>
-          //uuid
       )}
          
         </div>

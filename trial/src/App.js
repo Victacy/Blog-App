@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import Navigation from './Navigation';
-import LogIn from './LogIn';
-import SignUp from './SignUp';
-import Home from './Home';
-import AboutUs from './AboutUs';
-import Contact from './Contact';
-import Data from './Data';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './Pages/Navigation';
+import LogIn from './Pages/LogIn';
+import SignUp from './Pages/SignUp';
+import Home from './Pages/Home';
+
+import Contact from './Pages/Contact';
+
+// import Blog from './Pages/Blog'
+import About from './Pages/About'
+
 
 
 
@@ -21,13 +25,16 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route path='/login' component={LogIn}/>
         <Route path='/signup' component={SignUp}/>
-        <Route path='/about us' component={AboutUs}/>
-        <Route path='/data' component={Data}/>
+      
+        
         <Route path='/contact us' component={Contact}/>
+        {/* <Route path='/blog' component={Blog}/> */}
+        <Route path='/about' component={About}/>
+        
      
-
       </Switch>
       
+
     </Router>
    
   );
