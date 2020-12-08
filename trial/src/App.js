@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 
 import Contact from './Pages/Contact';
 
-// import Blog from './Pages/Blog'
+import Blog from './Pages/Blog'
 import About from './Pages/About'
 
 
@@ -28,7 +28,7 @@ function App() {
       
         
         <Route path='/contact us' component={Contact}/>
-        {/* <Route path='/blog' component={Blog}/> */}
+        <Route path='/blog' component={Blog}/> 
         <Route path='/about' component={About}/>
         
      

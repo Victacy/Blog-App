@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import { Button } from 'react-bootstrap'
 
 function Votes() {
-    const [likes, setLikes] = useState(10)
-    const [dislikes, setDislikes]=useState(26)
+    const [likes, setLikes] = useState(0)
+    const [dislikes, setDislikes]=useState(0)
 
     
     const handleLike =() => setLikes(likes + 1)
@@ -13,12 +13,10 @@ function Votes() {
 
     return(
         <div>
-            <span>{likes} likes </span>
-            {dislikes} dislikes
-            <div>
-                <Button style={{marginRight: 10 }} onClick={handleLike}>Likes</Button>
-               <span> <Button onClick={handleDislike}>Dislikes</Button></span>
-            </div>
+           
+                <Button style={{marginRight: 10 }} onClick={handleLike} variant="success" size="lg">{likes} Likes</Button>
+               <span> <Button onClick={handleDislike} variant="danger" size="lg"> {dislikes} Dislikes</Button></span>
+            
         </div>
     )
 }

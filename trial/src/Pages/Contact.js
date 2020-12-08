@@ -23,7 +23,7 @@ function About() {
     </center>
     <br/>
 
-            <Card className="play" tranparent>
+            <Card className="play">
           <Card.Body>
             <Card.Title className="len"><b>Subscribe to our newsletter</b></Card.Title>
             <Card.Text>

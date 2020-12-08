@@ -8,6 +8,7 @@
   .auth{
     width: 500px;
     margin: auto;
+    text-align: left;
   }
 
   
@@ -63,6 +64,7 @@
   .head{
     text-align: center;
     color:blue;
+    font-family: cursive;
   }
 
   .fries{
@@ -100,16 +102,55 @@
   }
 
   .bg{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tH-w17Fdo9fs3mXMo3BYHuHXqrlYpsj3-A&usqp=CAU" );
+    background-image: url("../images/wow.jpg" );
+    image-rendering: optimizeQuality;
     position: fixed;
-    min-width: 100%;
-    min-height: 100%;
+    height:700px;
+    text-align: center;
+    font-weight: bold;
+    
+    /* min-width: 100%;
+    min-height: 100%; */
     background-size: cover;
     background-position: center;
   }
   
   .arrange{
-    color: aliceblue;
+    color: black;
     text-align: center;
+  }
+
+  .log{
+    background-image: url("../images/multnomah.jpg" );
+    image-rendering: optimizeQuality;
+    position: fixed;
+    
+    text-align: center;
+  
+    
+     min-width: 100%;
+    min-height: 100%; 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .well{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 1.3pc;
+  
+  }
+
+  .pull{
+    background-image: url("../images/pala.jpg" );
+    image-rendering: optimizeQuality;
+    position: fixed;
+    
+    text-align: center;
+  
+    
+     min-width: 100%;
+    min-height: 100%; 
+    background-size: cover;
+    background-position: center;
   }
   

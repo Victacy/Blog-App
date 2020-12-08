@@ -39,12 +39,13 @@ function LogIn() {
           </>
             ) : (
             <>
-        
-            <Container>
+          
+            <Container className="pull">
+              <br/>
                 <center>
                 <img src={logo} alt=' '/>
                 </center>
-                <h3 className="head">Log in</h3>
+                <h3 className="head">Log in to your account</h3>
           <Form className="main">
               <Form.Group className="auth" value={email} onChange={handleEmailInput}>
                   <Form.Label className="index">Email Address</Form.Label>
@@ -60,14 +61,14 @@ function LogIn() {
               <Form.Group>
                 <Form.Check type="checkbox" label="Remember me"/> 
               </Form.Group>
-              <Link to ='/forgot'><span>Forgot Password</span></Link>
+              <Link to ='/forgot'><span><b style={{color:"darkblue"}}>Forgot Password</b></span></Link>
               <br/>
 
               <Button onClick={handleLogin} type='submit'>Log in</Button>
               
           <br />
-          Don't have an account yet?<Link to ='/signup'>
-          <span>SignUp</span>
+         <b style={{color:"aliceblue"}}> Don't have an account yet?</b><Link to ='/signup'>
+          <span><b>SignUp</b></span>
           </Link> 
           </Form>  
           

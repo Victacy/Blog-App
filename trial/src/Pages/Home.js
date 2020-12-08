@@ -19,7 +19,7 @@ function Home() {
     You can also plan tours individually or for your family at a discount depending on the location.
     Don't miss this amazing opportunity to travel with us all at ypour comfort </h5><br/>
     <center>
-    <Button  type='submit' >Plan your trip</Button>
+    <Button  type='submit' variant="primary" size="lg" active >Plan a trip</Button>{' '}
     </center>
     </div>
    
