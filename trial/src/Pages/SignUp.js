@@ -38,10 +38,12 @@ function SignUp() {
         <div className="der">
             {signedup ? (
         <>
+        <center className="der">
           <p>Congratulations,you've created a new account.</p>
           <p>Welcome to <b>Triumph Travels</b>.Feel free to book a tour to any destination of your choice </p>
           <Button onClick={handleSignout}type='submit'> Signout</Button>
-          
+          <Link to='/'>Continue</Link>
+          </center>
         </>
       ) : (
         <>

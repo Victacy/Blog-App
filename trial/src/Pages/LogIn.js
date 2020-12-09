@@ -33,9 +33,12 @@ function LogIn() {
         <div >
             {loggedIn ? (
           <>
-            <p>Welcome,Admin</p>
-            <p>How may I be of help to you today?</p>
+          <center className="der">
+            <p><h1>Welcome,Admin</h1></p>
+            <p><h3>How may I be of help to you today?</h3></p>
             <Button  onClick={handleLogout}> Logout</Button>
+            <Link to='/'>&nbsp;Continue</Link>
+            </center>
           </>
             ) : (
             <>

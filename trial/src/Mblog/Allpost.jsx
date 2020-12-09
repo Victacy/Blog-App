@@ -124,7 +124,7 @@ const Allpost = () => {
   return (
     <>
       {!allPosts.length ? (
-        <section className="no-post">
+        <section className="no-post" style={{color:"darkblue"}}>
           <h1>Welcome to Triumph Travels Blogpage</h1>
           <h3>There is nothing to see here.You can create a new post by clicking the new button</h3>
           <br />
